@@ -1,0 +1,163 @@
+/*飞机*/
+#Aircraft {
+    position: fixed;
+    left: 2000px;
+    top: 800px;
+    z-index: 9999;
+    width: 500px;
+    height: 500px;
+    background-image: url("http://oss.cdn.daishukuadou.com/newKdy/adminImg/2022/07/16/1657980979000Aircraft.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#Aircraft img {
+    width: 500px;
+    height: 500px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/*空投*/
+.airdrop {
+    width: 70px;
+    height: 120px;
+    position: absolute;
+    left: 30px;
+    top: 0px;
+    z-index: 99999;
+    background-image: url("http://oss.cdn.daishukuadou.com/newKdy/adminImg/2022/07/16/1657981006000airdrop.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+body::-webkit-scrollbar {
+    display: none; /* Chrome Safari */
+    scrollbar-width: none; /* firefox */
+    -ms-overflow-style: none;
+}
+
+/*坦克*/
+.Tank {
+    width: 50px;
+    height: 50px;
+    /*background: #000;*/
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, .2);
+}
+/*坦克身体*/
+.heade {
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    text-align: center;
+    color: #fff;
+    line-height: 30px;
+    font-size: 12px;
+    border: 1px solid rgba(0, 0, 0, .2);
+
+
+}
+/*头部*/
+.top {
+    width: 8px;
+    height: 8px;
+    position: relative;
+    border: 1px solid rgba(0, 0, 0, .2);
+
+}
+
+.guise {
+    background: #27a305 !important;
+}
+
+/*子弹*/
+.Bullets {
+    width: 6px;
+    height: 6px;
+    background: #f8d164;
+    border-radius: 10px;
+    position: absolute;
+    border: 1px solid #111;
+}
+
+/*追踪器*/
+
+#box {
+    width: 2000px;
+    height: 2000px;
+    border: 1px solid #000;
+    position: absolute;
+    background-image: url("http://oss.cdn.daishukuadou.com/newKdy/adminImg/2022/07/16/1657981030000cao.jpg");
+}
+
+#map{
+    position: fixed;
+    left:0;
+    right: 0;
+    background:rgba(0,0,0,.2);
+    height: 100px;
+    width: 100px;
+    overflow: hidden;
+    padding: 5px;
+    border-bottom-right-radius: 10px;
+
+}
+/*人物标记*/
+.point{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50px;
+}
+/*自己*/
+.square{
+    border-radius: 0px;
+}
+
+
+/*空投标记*/
+.drop{
+    position: absolute;
+    border-radius: 50px;
+    border: 3px solid #f9f303;
+    width: 10px;
+    height: 10px;
+}
+.hide{
+    background: transparent !important;
+    border: 0 !important;
+
+}
+.hide .top{
+    background: transparent !important;
+    border: 0 !important;
+
+}
+
+.hide .heade{
+    background: transparent !important;
+    color: transparent !important;
+
+    border: 0 !important;
+
+}
+
+#Joycon{
+
+    position: fixed;
+    left: 100px;
+    bottom: 100px;
+}
+
+

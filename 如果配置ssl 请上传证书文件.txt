@@ -1,0 +1,3 @@
+如果是ssl协议  证书放入config
+
+如果非https协议 请修改server.php  32 - 35行
